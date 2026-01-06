@@ -1,5 +1,21 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 header{
-    line-height: 3rem;
+    height: 5rem;
     color: blueviolet;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
