@@ -28,4 +28,58 @@ header{
     background-color: lightcyan;
     padding: 6px;
     margin: 0;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.flex-nav a {
+    text-decoration: none;
+    height: 100%;
+    text-transform: uppercase;
+    color: black;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    
+}
+
+a:hover{
+    background-color: white;
+}
+
+.image-text-container{
+    display: flex;
+    align-items: stretch;
+    margin: 20px;
+    padding: 10px;
+}
+
+.side-image{
+    width: 500px;
+    height: auto;
+    object-fit: cover;
+    border-radius 8px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+}
+
+.text-box{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 16px;
+    background-color: bisque;
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+}
+
+.text-box h2{
+    font-size: 4rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.text-box p{
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;
 }
