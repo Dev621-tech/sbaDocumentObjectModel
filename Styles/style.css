@@ -13,9 +13,19 @@ body {
 }
 
 header{
-    height: 5rem;
+    height: 6rem;
     color: blueviolet;
     text-align: center;
     margin: 0;
     padding: 0;
+}
+
+.flex-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4rem;
+    background-color: lightcyan;
+    padding: 6px;
+    margin: 0;
 }
