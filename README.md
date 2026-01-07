@@ -4,6 +4,10 @@
 ---
 * Keep track of all of your accomplishment and celebrate them !!
 
+## SO FAR
+Home Page
+Profile Page (Sign In)
+
 ## Acknoledgments
 [Hard-Working Man Picture](https://www.pexels.com/photo/a-man-sitting-at-the-table-6282069/)
 [Trophy Celebration Picture](https://www.pexels.com/photo/a-woman-holding-a-trophy-6370120/)

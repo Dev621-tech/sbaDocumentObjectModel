@@ -20,7 +20,7 @@ const navLinks = [
     { text: 'Create', href: '/create' },
     { text: 'ToDo', href: '/todo' },
     { text: 'Progress', href: '/progress' },
-    { text: 'Profile', href: 'pages/profile.html' }
+    { text: 'Profile', href: 'profile.html' }
 ];
 
 navLinks.forEach(link => {
@@ -37,3 +37,21 @@ nav.classList.add('flex-nav');
 
 let main = document.querySelector('main');
 document.body.insertBefore(nav, main);
+
+const form = document.getElementById("form")
+const password = form.elements["password"];
+
+form.addEventListener("submit", validatePassword);
+
+// 
+function validatePassword(e) {
+  if (password.value === "") {
+    e.preventDefault();
+    alert("Please provide a password.");
+    password.focus();
+    
+  }else{
+    confirm("Would you like to save login information")
+  }
+}
+
