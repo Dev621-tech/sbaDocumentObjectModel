@@ -1,0 +1,49 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: lightcyan;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+header{
+    height: 6rem;
+    color: blueviolet;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4rem;
+    background-color: lightcyan;
+    padding: 6px;
+    margin: 0;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.flex-nav a {
+    text-decoration: none;
+    height: 100%;
+    text-transform: uppercase;
+    color: black;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    
+}
+
+a:hover{
+    background-color: white;
+}

@@ -18,7 +18,7 @@ const nav = document.createElement('nav');
 const navLinks = [
     { text: 'Home', href: 'index.html' },
     { text: 'Create', href: '/create' },
-    { text: 'ToDo', href: '/todo' },
+    { text: 'ToDo', href: 'pages/todo.html' },
     { text: 'Progress', href: '/progress' },
     { text: 'Profile', href: 'pages/profile.html' }
 ];
