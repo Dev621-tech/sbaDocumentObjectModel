@@ -20,7 +20,7 @@ const navLinks = [
     { text: 'Create', href: '/create' },
     { text: 'ToDo', href: '/todo' },
     { text: 'Progress', href: '/progress' },
-    { text: 'Profile', href: '/profile' }
+    { text: 'Profile', href: 'pages/profile.html' }
 ];
 
 navLinks.forEach(link => {
@@ -35,7 +35,7 @@ navLinks.forEach(link => {
 document.body.appendChild(nav);
 nav.classList.add('flex-nav');
 
-// MAIN CONTAINER --------------------------------------------------------------------
+// FIRST CONTAINER --------------------------------------------------------------------
 let main = document.querySelector('main');
 
 // Ensures that the nav is before the main
@@ -64,4 +64,21 @@ container.appendChild(textBox);
 main.appendChild(container);
 
 
-// Seconf
+// SECOND CONTAINER ------------------
+let containerSecond = document.createElement('div');
+containerSecond.classList.add('image-text-container');
+
+const imgSecond = document.createElement('img');
+imgSecond.src = "images/trophyCelebration.jpg";
+imgSecond.alt = "";
+imgSecond.classList.add('side-image');
+
+const textBoxSecond = document.createElement('div');
+textBoxSecond.classList.add('text-box');
+textBoxSecond.innerHTML = `<h2>Every Step Counts !!</h2>
+<p>MAKE YOURSELF PROUD ! AND CELEBRATE !!</p>`;
+
+containerSecond.appendChild(textBoxSecond);
+containerSecond.appendChild(imgSecond);
+
+main.appendChild(containerSecond);
